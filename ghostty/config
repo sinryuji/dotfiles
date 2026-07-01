@@ -1,0 +1,8 @@
+theme = Atom One Dark
+
+font-family = "MesloLGS NF"
+font-family = "Noto Sans KR"
+
+keybind = cmd+grave_accent=toggle_quick_terminal
+
+notify-on-command-finish = always
