@@ -30,7 +30,7 @@ vim.keymap.set('n', '<C-n>', function()
   vim.cmd('Neotree float toggle')
 end, { silent = true })
 
-vim.keymap.set('n', '<S-n>', function()
+vim.keymap.set('n', '<leader>n', function()
   vim.cmd('Neotree toggle position=left')
 end, { silent = true })
 
