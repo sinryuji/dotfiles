@@ -3,8 +3,8 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 
 -- 들여쓰기 설정
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
 -- 검색 설정
