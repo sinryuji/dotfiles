@@ -76,5 +76,3 @@ require('neo-tree').setup {
 require('mini.pairs').setup()
 
 require('trouble').setup()
-
-vim.lsp.enable('clangd')
