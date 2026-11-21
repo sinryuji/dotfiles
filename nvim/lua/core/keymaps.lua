@@ -42,10 +42,10 @@ vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' 
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
 
 -- Esc 누르면 영어로
--- vim.keymap.set('n', '<Esc>', function()
---   os.execute('im-select com.apple.keylayout.ABC')
---   return '<Esc>'
--- end, { expr = true })
+vim.keymap.set('n', '<Esc>', function()
+  os.execute('im-select com.apple.keylayout.ABC')
+  return '<Esc>'
+end, { expr = true })
 
 -- Insert 나갈 때도 영어로
 vim.api.nvim_create_autocmd('InsertLeave', {

@@ -15,7 +15,8 @@ vim.pack.add({
   { src = 'https://github.com/neovim/nvim-lspconfig', name = 'lspconfig' },
   { src = 'https://github.com/nvim-lualine/lualine.nvim', name = 'lualine' },
   { src = 'https://github.com/nvim-mini/mini.pairs', name = 'minipairs' },
-  { src = 'https://github.com/folke/trouble.nvim', name = 'trouble' }
+  { src = 'https://github.com/folke/trouble.nvim', name = 'trouble' },
+  { src = 'https://github.com/nvimdev/template.nvim', name = 'template' }
 })
 
 -- bufferlne
@@ -76,3 +77,7 @@ require('neo-tree').setup {
 require('mini.pairs').setup()
 
 require('trouble').setup()
+
+require("template").setup({
+  temp_dir = vim.fn.stdpath("config") .. "/templates",
+})
