@@ -7,7 +7,7 @@ math: true
 toc: true
 pin: false
 image:
-  path: thumbnail.png
+  path: /assets/img/thumbnail/
   alt: image alternative text
 ---
 
